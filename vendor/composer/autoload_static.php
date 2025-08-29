@@ -17,12 +17,12 @@ class ComposerStaticInitbdc6d92507d397adf1c269ed49ec424d
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
+        '29ffe97919493792170d47eb03a68da9' => __DIR__ . '/..' . '/blade-ui-kit/blade-icons/src/helpers.php',
         '35a6ad97d21e794e7e22a17d806652e4' => __DIR__ . '/..' . '/nunomaduro/termwind/src/Functions.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         '2203a247e6fda86070a5e4e07aed533a' => __DIR__ . '/..' . '/symfony/clock/Resources/now.php',
         '09f6b20656683369174dd6fa83b7e5fb' => __DIR__ . '/..' . '/symfony/polyfill-uuid/bootstrap.php',
         'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
-        '29ffe97919493792170d47eb03a68da9' => __DIR__ . '/..' . '/blade-ui-kit/blade-icons/src/helpers.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '47e1160838b5e5a10346ac4084b58c23' => __DIR__ . '/..' . '/laravel/prompts/src/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
@@ -121,6 +121,7 @@ class ComposerStaticInitbdc6d92507d397adf1c269ed49ec424d
         array (
             'Monolog\\' => 8,
             'Mockery\\' => 8,
+            'MallardDuck\\LucideIcons\\' => 24,
         ),
         'L' => 
         array (
@@ -172,6 +173,7 @@ class ComposerStaticInitbdc6d92507d397adf1c269ed49ec424d
         'C' => 
         array (
             'Cron\\' => 5,
+            'Codeat3\\BladePhosphorIcons\\' => 27,
             'Codeat3\\BladeFluentUiSystemIcons\\' => 33,
             'Carbon\\Doctrine\\' => 16,
             'Carbon\\' => 7,
@@ -180,6 +182,7 @@ class ComposerStaticInitbdc6d92507d397adf1c269ed49ec424d
         array (
             'Brick\\Math\\' => 11,
             'BladeUI\\Icons\\' => 14,
+            'BladeUI\\Heroicons\\' => 18,
         ),
         'A' => 
         array (
@@ -397,6 +400,10 @@ class ComposerStaticInitbdc6d92507d397adf1c269ed49ec424d
         array (
             0 => __DIR__ . '/..' . '/mockery/mockery/library/Mockery',
         ),
+        'MallardDuck\\LucideIcons\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mallardduck/blade-lucide-icons/src',
+        ),
         'League\\Uri\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/uri',
@@ -522,6 +529,10 @@ class ComposerStaticInitbdc6d92507d397adf1c269ed49ec424d
         array (
             0 => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron',
         ),
+        'Codeat3\\BladePhosphorIcons\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/codeat3/blade-phosphor-icons/src',
+        ),
         'Codeat3\\BladeFluentUiSystemIcons\\' => 
         array (
             0 => __DIR__ . '/..' . '/codeat3/blade-fluentui-system-icons/src',
@@ -541,6 +552,10 @@ class ComposerStaticInitbdc6d92507d397adf1c269ed49ec424d
         'BladeUI\\Icons\\' => 
         array (
             0 => __DIR__ . '/..' . '/blade-ui-kit/blade-icons/src',
+        ),
+        'BladeUI\\Heroicons\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/blade-ui-kit/blade-heroicons/src',
         ),
         'App\\' => 
         array (
@@ -580,6 +595,7 @@ class ComposerStaticInitbdc6d92507d397adf1c269ed49ec424d
         'App\\View\\Components\\AppLayout' => __DIR__ . '/../..' . '/app/View/Components/AppLayout.php',
         'App\\View\\Components\\GuestLayout' => __DIR__ . '/../..' . '/app/View/Components/GuestLayout.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
+        'BladeUI\\Heroicons\\BladeHeroiconsServiceProvider' => __DIR__ . '/..' . '/blade-ui-kit/blade-heroicons/src/BladeHeroiconsServiceProvider.php',
         'BladeUI\\Icons\\BladeIconsServiceProvider' => __DIR__ . '/..' . '/blade-ui-kit/blade-icons/src/BladeIconsServiceProvider.php',
         'BladeUI\\Icons\\Components\\Icon' => __DIR__ . '/..' . '/blade-ui-kit/blade-icons/src/Components/Icon.php',
         'BladeUI\\Icons\\Components\\Svg' => __DIR__ . '/..' . '/blade-ui-kit/blade-icons/src/Components/Svg.php',
@@ -698,6 +714,7 @@ class ComposerStaticInitbdc6d92507d397adf1c269ed49ec424d
         'Carbon\\WeekDay' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/WeekDay.php',
         'Carbon\\WrapperClock' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/WrapperClock.php',
         'Codeat3\\BladeFluentUiSystemIcons\\BladeFluentUiSystemIconsServiceProvider' => __DIR__ . '/..' . '/codeat3/blade-fluentui-system-icons/src/BladeFluentUiSystemIconsServiceProvider.php',
+        'Codeat3\\BladePhosphorIcons\\BladePhosphorIconsServiceProvider' => __DIR__ . '/..' . '/codeat3/blade-phosphor-icons/src/BladePhosphorIconsServiceProvider.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/CronExpression.php',
@@ -3509,6 +3526,7 @@ class ComposerStaticInitbdc6d92507d397adf1c269ed49ec424d
         'League\\Uri\\UriTemplate\\TemplateCanNotBeExpanded' => __DIR__ . '/..' . '/league/uri/UriTemplate/TemplateCanNotBeExpanded.php',
         'League\\Uri\\UriTemplate\\VarSpecifier' => __DIR__ . '/..' . '/league/uri/UriTemplate/VarSpecifier.php',
         'League\\Uri\\UriTemplate\\VariableBag' => __DIR__ . '/..' . '/league/uri/UriTemplate/VariableBag.php',
+        'MallardDuck\\LucideIcons\\BladeLucideIconsServiceProvider' => __DIR__ . '/..' . '/mallardduck/blade-lucide-icons/src/BladeLucideIconsServiceProvider.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegrationAssertPostConditions' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegrationAssertPostConditions.php',
         'Mockery\\Adapter\\Phpunit\\MockeryTestCase' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php',

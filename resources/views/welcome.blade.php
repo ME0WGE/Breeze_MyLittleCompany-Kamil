@@ -10,6 +10,9 @@
         <div style="display: flex; align-items: center; justify-content: center; height: 100vh">
             <div style="text-align: center">
                 <h1>Welcome</h1>
+                <x-icon-camera class="w-12 h-12 text-indigo-600" />
+                <x-phosphor-detective-bold class="w-12 h-12 text-indigo-600" />
+                <x-heroicon-s-heart />
             </div>
         </div>
     </body>
