@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\Avatar;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -14,7 +15,7 @@ class AvatarFactory extends Factory
      *
      * @var string
      */
-    protected $model = \App\Models\Avatar::class;
+    protected $model = Avatar::class;
     /**
      * Define the model's default state.
      *
@@ -23,7 +24,7 @@ class AvatarFactory extends Factory
     public function definition(): array
     {
         return [
-            'image' => 'https://sm.ign.com/ign_fr/cover/a/avatar-gen/avatar-generations_bssq.jpg',
+            'image' => 'https://cdn.jsdelivr.net/gh/ME0WGE/assets-storage@main/assets/images/placeholders/avatar_placeholder.jpg?v=2',
             'user_id' => null
         ];
     }

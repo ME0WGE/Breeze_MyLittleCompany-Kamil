@@ -16,19 +16,17 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $this->call(RoleSeeder::class);
-        $this->call(ProduitSeeder::class);
+        $this->call(ProductSeeder::class);
+        $this->call([
+            DepartmentSeeder::class, EmployeeSeeder::class
+        ]);
 
         User::factory(3)->has(Avatar::factory())->create();
 
         User::factory()->has(Avatar::factory())->create([
-            'name' => 'Test User',
+            'name' => 'test_user',
             'email' => 'test@example.com',
-            'pseudo' => 'TestPseudo'
+            'username' => 'test_username'
         ]);
-
-        $this->call([
-               DepartementSeeder::class, EmployeSeeder::class, 
-            ]);
-        
     }
 }

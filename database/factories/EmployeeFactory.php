@@ -2,13 +2,13 @@
 
 namespace Database\Factories;
 
-use App\Models\Departement;
+use App\Models\Department;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Employe>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Employee>
  */
-class EmployeFactory extends Factory
+class EmployeeFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -21,7 +21,7 @@ class EmployeFactory extends Factory
             'first_name' => $this->faker->firstName(),
             'last_name' => $this->faker->lastName(),
             'email' => $this->faker->safeEmail(),
-            'departement_id' => $this->faker->randomElement(Departement::all()->pluck('id')),
+            'department_id' => $this->faker->randomElement(Department::all()->pluck('id')),
         ];
     }
 }

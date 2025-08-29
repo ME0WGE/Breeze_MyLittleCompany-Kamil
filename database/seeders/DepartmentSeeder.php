@@ -2,21 +2,22 @@
 
 namespace Database\Seeders;
 
-use App\Models\Departement;
+use App\Models\Department;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class DepartementSeeder extends Seeder
+class DepartmentSeeder extends Seeder
 {
-   
+    /**
+     * Run the database seeds.
+     */
     public function run(): void
     {
-        Departement::insert([
+        Department::insert([
             ['name' => 'IT'],
             ['name' => 'HR'],
             ['name' => 'Finance'],
             ['name' => 'Sales'],
-            
         ]);
     }
 }
